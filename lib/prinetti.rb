@@ -16,7 +16,7 @@ module Prinetti
 
   class Configuration
     attr_accessor :address_method, :customer_method, :debug, :account, :contract,
-                  :key, :sources, :sender_name, :sender_street, :sender_postcode,
+                  :key, :source, :sender_name, :sender_street, :sender_postcode,
                   :sender_city, :sender_country, :sender_phone, :sender_vatcode
   end
 
