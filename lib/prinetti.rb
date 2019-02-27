@@ -1,4 +1,3 @@
-require 'digest'
 require 'httparty'
 require 'prinetti/version'
 require 'prinetti/railtie' if defined?(Rails::VERSION)
